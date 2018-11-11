@@ -51,7 +51,7 @@ public class Search
     }catch(IOException e){
         System.out.println("file not found");
     }
-    Anneal a=new Anneal(array,1.0,0.00001,0.9);
+    Anneal a=new Anneal(array,1.0,0.00001,0.99);
     best=a.getBest();
     //best.printTour();
     cost=best.getCost(array);
