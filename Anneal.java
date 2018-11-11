@@ -6,7 +6,8 @@ public class Anneal
     private int cost;
     public Anneal(int[][] array,double temp,double minTemp,double alpha){
         this.temp=temp;
-         Solution solution=new Solution(array[0].length);
+         Solution solution=new Solution(array);
+         
          best=solution;
          cost=solution.getCost(array);
          //System.out.println("---------------Solution1------------------");

@@ -1,14 +1,16 @@
 #BlueJ class context
 comment0.params=size
 comment0.target=Solution(int)
-comment1.params=s
-comment1.target=Solution(Solution)
-comment2.params=array
-comment2.target=int\ getCost(int[][])
-comment3.params=
-comment3.target=int\ getSize()
+comment1.params=array
+comment1.target=Solution(int[][])
+comment2.params=s
+comment2.target=Solution(Solution)
+comment3.params=array
+comment3.target=int\ getCost(int[][])
 comment4.params=
-comment4.target=java.util.ArrayList\ getTour()
+comment4.target=int\ getSize()
 comment5.params=
-comment5.target=void\ printTour()
-numComments=6
+comment5.target=java.util.ArrayList\ getTour()
+comment6.params=
+comment6.target=void\ printTour()
+numComments=7
